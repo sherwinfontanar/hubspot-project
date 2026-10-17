@@ -1,0 +1,33 @@
+node_modules/
+**/node_modules/
+.env
+.env.*
+!.env.example
+dist/
+coverage/
+data/
+exports/
+__pycache__/
+.venv/
+*.db
+*.db-shm
+*.db-wal
+
+# Operating system files
+.DS_Store
+Thumbs.db
+# Local SQLite databases and runtime data
+**/data/
+*.db
+*.db-shm
+*.db-wal
+
+# Local investigation and one-off assessment helpers
+/backend/check-contact.ts
+/backend/check-currency.ts
+/backend/check-db.ts
+/backend/check-sync-result.ts
+/backend/create-retry-test.ts
+/backend/store-assessment-payload.ts
+/backend/src/check-deal-properties.ts
+/backend/src/check-hubspot.ts
